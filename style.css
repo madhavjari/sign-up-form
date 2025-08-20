@@ -1,0 +1,52 @@
+.italic{
+    font-style: italic;
+}
+
+.main-container, .logo-container, .form-child-containers, .inputs{
+    display: flex;
+}
+
+#smile-logo{
+    height: 39rem;
+    width: auto;
+}
+
+#odin-logo{
+    height: 10rem;
+    width: 10rem;
+    background-color: black;
+}
+
+.header, .footer{
+    background-color: rgb(241, 239, 245);
+}
+
+.header{
+    font-weight: bolder;
+    font-size: large;
+    text-wrap: wrap;
+    padding-top: 6rem ;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+}
+
+.inputs{
+    flex-direction: column;
+}
+
+.form-child-containers{
+    padding-left:2rem;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    margin-left: 0;
+}
+
+fieldset{
+    border: none;
+}
+
+.form-container{
+    display:flex;
+    flex-direction: column;
+}
+

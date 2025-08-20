@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="logo-container">
+            <img src="./sign-up.jpg" alt="Smile logo" height="100%" width="300px" id="smile-logo">
+            <img src="./odin-lined.png" alt="Odin logo" id="odin-logo">
+            <div>Odin</div>
+        </div>
+        <div class="form-container">
+            <div class="header">Smile. It's one thing you should always wear no matter what. Smile may not tackle the problem, but it eases the mind, which gives clarity and clarity gives solution. <span class="italic">Sign-up</span> to wear your smile.</div>
+            <div class="input-form">
+                <div class="form-child-containers">Let's Smile</div>
+                <form action="smile.com/home" method="post">
+                    <fieldset>
+                        <div class="form-child-containers">
+                            <div class="inputs">
+                                <label for="first_name">First Name</label>
+                                <input type="text" name="first_name" id="first_name" placeholder="Madhav" required>
+                            </div>
+                            <div class="inputs">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" name="last_name" id="last_name" placeholder="Jariwala" required>
+                            </div>
+                        </div>
+                        <div class="form-child-containers">
+                            <div class="inputs">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="abc@xyz" required> 
+                            </div>
+                            <div class="inputs">
+                                <label for="phone_number">Phone Number</label>
+                                <input type="number" name="phone_number" id="phone_number" > 
+                            </div>
+                        </div>
+                        <div class="form-child-containers">
+                            <div class="inputs">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" required> 
+                            </div>
+                            <div class="inputs">
+                                <label for="password">Confirm Password</label>
+                                <input type="password" name="password" id="password" required>
+                            </div>
+                        </div>
+                    </fieldset>
+            </div>
+            <div class="footer">
+                <button type="submit">Create Account</button>
+            </form>
+                <p>Already have an account? <a href="index.html">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
