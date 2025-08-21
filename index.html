@@ -23,32 +23,32 @@
                     <fieldset>
                         <div class="form-child-containers">
                             <div class="inputs">
-                                <label for="first_name">FIRST NAME</label>
-                                <input type="text" name="first_name" id="first_name" placeholder="Madhav" required>
+                                <label for="first_name">FIRST NAME*</label>
+                                <input type="text" name="first_name" id="first_name" placeholder="Madhav" minlength="2" maxlength="15" required>
                             </div>
                             <div class="inputs">
-                                <label for="last_name">LAST NAME</label>
-                                <input type="text" name="last_name" id="last_name" placeholder="Jariwala" required>
+                                <label for="last_name">LAST NAME*</label>
+                                <input type="text" name="last_name" id="last_name" placeholder="Jariwala" minlength="2" maxlength="15" required>
                             </div>
                         </div>
                         <div class="form-child-containers">
                             <div class="inputs">
-                                <label for="email">EMAIL</label>
+                                <label for="email">EMAIL*</label>
                                 <input type="email" name="email" id="email" placeholder="abc@xyz" required> 
                             </div>
                             <div class="inputs">
                                 <label for="phone_number">PHONE NUMBER</label>
-                                <input type="number" name="phone_number" id="phone_number" > 
+                                <input type="number" name="phone_number" id="phone_number" minlength="10" maxlength="10"> 
                             </div>
                         </div>
                         <div class="form-child-containers">
                             <div class="inputs">
-                                <label for="password">PASSWORD</label>
-                                <input type="password" name="password" id="password" required> 
+                                <label for="password">PASSWORD*</label>
+                                <input type="password" name="password" id="password" placeholder="Enter password" minlength="8" required> 
                             </div>
                             <div class="inputs">
-                                <label for="password">CONFIRM PASSWORD</label>
-                                <input type="password" name="password" id="password" required>
+                                <label for="password">CONFIRM PASSWORD*</label>
+                                <input type="password" name="password" id="password" placeholder="Match password" minlength="8" required>
                             </div>
                         </div>
                     </fieldset>
