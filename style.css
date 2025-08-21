@@ -1,5 +1,12 @@
 body{
     font-family:system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -52,6 +59,7 @@ input{
     border: 1px solid #D3D3D3;
 }
 
+
 input:focus{
     outline: none;
     border-color: #665df5;
@@ -78,14 +86,16 @@ input:invalid:focus{
     font-weight: bolder;
     font-size: large;
     text-wrap: wrap;
-    padding-top: 6rem ;
-    padding-bottom: 3rem;
+    padding-top: 5.8rem ;
+    padding-bottom: 1rem;
     padding-left: 2rem;
+    padding-right: 10rem;
 }
 
 .input-form{
     position: relative;
     box-shadow: 0 5px 5px -5px #3b3939;
+    padding-bottom: 2rem;
 }
 
 .inputs{
@@ -122,6 +132,7 @@ button{
     border: 0;
     border-radius: 0.2rem;
     cursor: pointer;
+    margin-bottom: 2rem;
 }
 
 .footer{
